@@ -35,9 +35,11 @@ app.post("/", function(req, res) {
 
   const url = "https://us17.api.mailchimp.com/3.0/lists/2569e21112";
 
+/*  SECRET CODE HERE  ////////*/
+
   const options = {
     method: "POST",
-    auth: "artoym_hb:395c28a15b97d9b509a3b2782056ef6c-us17"
+    auth: "artoym_hb******************: 
   }
 
   const jsonData = JSON.stringify(data);
@@ -69,8 +71,3 @@ app.listen(process.env.PORT || 3000, function() {
   console.log("Server is running on port 3000");
 });
 
-// API
-// 395c28a15b97d9b509a3b2782056ef6c-us17
-
-// ID Audience
-// 2569e21112
